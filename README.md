@@ -31,6 +31,10 @@
   + 사용자 이름
   + 여태까지 걸린 횟수 및 구매한 커피 수 추가
 
+## Wireframe
+![스크린샷 2022-05-18 오후 5 21 18](https://user-images.githubusercontent.com/105623420/168992578-8af7e70d-1e39-4d24-b666-b5f22de9c38f.png)
+
+
 ## Getting Started
 
 ### Skill

@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		5C082419283497AA00919BB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C082418283497AA00919BB8 /* AppDelegate.swift */; };
 		5C08241B283497AA00919BB8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08241A283497AA00919BB8 /* SceneDelegate.swift */; };
-		5C08241D283497AA00919BB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08241C283497AA00919BB8 /* ViewController.swift */; };
-		5C082420283497AA00919BB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C08241E283497AA00919BB8 /* Main.storyboard */; };
+		5C08241D283497AA00919BB8 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08241C283497AA00919BB8 /* SummaryViewController.swift */; };
 		5C082422283497AB00919BB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C082421283497AB00919BB8 /* Assets.xcassets */; };
 		5C082425283497AB00919BB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C082423283497AB00919BB8 /* LaunchScreen.storyboard */; };
 		5C082430283497AB00919BB8 /* TwinnyPeopleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08242F283497AB00919BB8 /* TwinnyPeopleAppTests.swift */; };
 		5C08243A283497AB00919BB8 /* TwinnyPeopleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C082439283497AB00919BB8 /* TwinnyPeopleAppUITests.swift */; };
 		5C08243C283497AB00919BB8 /* TwinnyPeopleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08243B283497AB00919BB8 /* TwinnyPeopleAppUITestsLaunchTests.swift */; };
+		5C08244A283498C500919BB8 /* ReactorKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5C082449283498C500919BB8 /* ReactorKit */; };
+		5C08244D283498D000919BB8 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 5C08244C283498D000919BB8 /* Then */; };
+		5C082450283498E500919BB8 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5C08244F283498E500919BB8 /* SnapKit */; };
+		5C08245B28349B7800919BB8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08245A28349B7800919BB8 /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,7 @@
 		5C082415283497AA00919BB8 /* TwinnyPeopleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwinnyPeopleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C082418283497AA00919BB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C08241A283497AA00919BB8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5C08241C283497AA00919BB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5C08241F283497AA00919BB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C08241C283497AA00919BB8 /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
 		5C082421283497AB00919BB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C082424283497AB00919BB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C082426283497AB00919BB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 		5C082435283497AB00919BB8 /* TwinnyPeopleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwinnyPeopleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C082439283497AB00919BB8 /* TwinnyPeopleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwinnyPeopleAppUITests.swift; sourceTree = "<group>"; };
 		5C08243B283497AB00919BB8 /* TwinnyPeopleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwinnyPeopleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C08245A28349B7800919BB8 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C082450283498E500919BB8 /* SnapKit in Frameworks */,
+				5C08244A283498C500919BB8 /* ReactorKit in Frameworks */,
+				5C08244D283498D000919BB8 /* Then in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,12 +105,11 @@
 		5C082417283497AA00919BB8 /* TwinnyPeopleApp */ = {
 			isa = PBXGroup;
 			children = (
-				5C082418283497AA00919BB8 /* AppDelegate.swift */,
-				5C08241A283497AA00919BB8 /* SceneDelegate.swift */,
-				5C08241C283497AA00919BB8 /* ViewController.swift */,
-				5C08241E283497AA00919BB8 /* Main.storyboard */,
-				5C082421283497AB00919BB8 /* Assets.xcassets */,
-				5C082423283497AB00919BB8 /* LaunchScreen.storyboard */,
+				5C08245928349A0500919BB8 /* Resources */,
+				5C0824542834998E00919BB8 /* Model */,
+				5C0824532834997E00919BB8 /* Presentation */,
+				5C0824522834996B00919BB8 /* Util */,
+				5C0824512834995400919BB8 /* App */,
 				5C082426283497AB00919BB8 /* Info.plist */,
 			);
 			path = TwinnyPeopleApp;
@@ -127,6 +132,79 @@
 			path = TwinnyPeopleAppUITests;
 			sourceTree = "<group>";
 		};
+		5C0824512834995400919BB8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5C082418283497AA00919BB8 /* AppDelegate.swift */,
+				5C08241A283497AA00919BB8 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5C0824522834996B00919BB8 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				5C082456283499A800919BB8 /* Custom */,
+				5C082455283499A100919BB8 /* Base */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		5C0824532834997E00919BB8 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				5C082458283499BE00919BB8 /* Summary */,
+				5C082457283499AD00919BB8 /* Game */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		5C0824542834998E00919BB8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5C082455283499A100919BB8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		5C082456283499A800919BB8 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		5C082457283499AD00919BB8 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				5C08245A28349B7800919BB8 /* GameViewController.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		5C082458283499BE00919BB8 /* Summary */ = {
+			isa = PBXGroup;
+			children = (
+				5C08241C283497AA00919BB8 /* SummaryViewController.swift */,
+			);
+			path = Summary;
+			sourceTree = "<group>";
+		};
+		5C08245928349A0500919BB8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5C082421283497AB00919BB8 /* Assets.xcassets */,
+				5C082423283497AB00919BB8 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +221,11 @@
 			dependencies = (
 			);
 			name = TwinnyPeopleApp;
+			packageProductDependencies = (
+				5C082449283498C500919BB8 /* ReactorKit */,
+				5C08244C283498D000919BB8 /* Then */,
+				5C08244F283498E500919BB8 /* SnapKit */,
+			);
 			productName = TwinnyPeopleApp;
 			productReference = 5C082415283497AA00919BB8 /* TwinnyPeopleApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +298,11 @@
 				Base,
 			);
 			mainGroup = 5C08240C283497AA00919BB8;
+			packageReferences = (
+				5C082448283498C500919BB8 /* XCRemoteSwiftPackageReference "ReactorKit" */,
+				5C08244B283498D000919BB8 /* XCRemoteSwiftPackageReference "Then" */,
+				5C08244E283498E500919BB8 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 5C082416283497AA00919BB8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +321,6 @@
 			files = (
 				5C082425283497AB00919BB8 /* LaunchScreen.storyboard in Resources */,
 				5C082422283497AB00919BB8 /* Assets.xcassets in Resources */,
-				5C082420283497AA00919BB8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +345,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C08241D283497AA00919BB8 /* ViewController.swift in Sources */,
+				5C08245B28349B7800919BB8 /* GameViewController.swift in Sources */,
+				5C08241D283497AA00919BB8 /* SummaryViewController.swift in Sources */,
 				5C082419283497AA00919BB8 /* AppDelegate.swift in Sources */,
 				5C08241B283497AA00919BB8 /* SceneDelegate.swift in Sources */,
 			);
@@ -297,14 +385,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5C08241E283497AA00919BB8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5C08241F283497AA00919BB8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5C082423283497AB00919BB8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +446,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +500,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -442,7 +522,8 @@
 				INFOPLIST_FILE = TwinnyPeopleApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -454,7 +535,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -470,7 +551,8 @@
 				INFOPLIST_FILE = TwinnyPeopleApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -482,7 +564,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -602,6 +684,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5C082448283498C500919BB8 /* XCRemoteSwiftPackageReference "ReactorKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactorKit/ReactorKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		5C08244B283498D000919BB8 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		5C08244E283498E500919BB8 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5C082449283498C500919BB8 /* ReactorKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C082448283498C500919BB8 /* XCRemoteSwiftPackageReference "ReactorKit" */;
+			productName = ReactorKit;
+		};
+		5C08244C283498D000919BB8 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C08244B283498D000919BB8 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		5C08244F283498E500919BB8 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C08244E283498E500919BB8 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5C08240D283497AA00919BB8 /* Project object */;
 }

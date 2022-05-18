@@ -19,6 +19,10 @@
 		5C08244D283498D000919BB8 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 5C08244C283498D000919BB8 /* Then */; };
 		5C082450283498E500919BB8 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5C08244F283498E500919BB8 /* SnapKit */; };
 		5C08245B28349B7800919BB8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08245A28349B7800919BB8 /* GameViewController.swift */; };
+		5C08245D28349CD400919BB8 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08245C28349CD400919BB8 /* SummaryView.swift */; };
+		5C08246128349D2000919BB8 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08246028349D2000919BB8 /* BaseView.swift */; };
+		5C08246328349D2500919BB8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08246228349D2500919BB8 /* BaseViewController.swift */; };
+		5C08246628349D5500919BB8 /* ViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08246528349D5500919BB8 /* ViewRepresentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +56,10 @@
 		5C082439283497AB00919BB8 /* TwinnyPeopleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwinnyPeopleAppUITests.swift; sourceTree = "<group>"; };
 		5C08243B283497AB00919BB8 /* TwinnyPeopleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwinnyPeopleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5C08245A28349B7800919BB8 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5C08245C28349CD400919BB8 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		5C08246028349D2000919BB8 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		5C08246228349D2500919BB8 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		5C08246528349D5500919BB8 /* ViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRepresentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +152,7 @@
 		5C0824522834996B00919BB8 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				5C08246428349D4900919BB8 /* Protocol */,
 				5C082456283499A800919BB8 /* Custom */,
 				5C082455283499A100919BB8 /* Base */,
 			);
@@ -169,6 +178,8 @@
 		5C082455283499A100919BB8 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				5C08246028349D2000919BB8 /* BaseView.swift */,
+				5C08246228349D2500919BB8 /* BaseViewController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -192,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				5C08241C283497AA00919BB8 /* SummaryViewController.swift */,
+				5C08245C28349CD400919BB8 /* SummaryView.swift */,
 			);
 			path = Summary;
 			sourceTree = "<group>";
@@ -203,6 +215,14 @@
 				5C082423283497AB00919BB8 /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		5C08246428349D4900919BB8 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				5C08246528349D5500919BB8 /* ViewRepresentable.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,8 +366,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C08245B28349B7800919BB8 /* GameViewController.swift in Sources */,
+				5C08246628349D5500919BB8 /* ViewRepresentable.swift in Sources */,
 				5C08241D283497AA00919BB8 /* SummaryViewController.swift in Sources */,
+				5C08245D28349CD400919BB8 /* SummaryView.swift in Sources */,
+				5C08246128349D2000919BB8 /* BaseView.swift in Sources */,
 				5C082419283497AA00919BB8 /* AppDelegate.swift in Sources */,
+				5C08246328349D2500919BB8 /* BaseViewController.swift in Sources */,
 				5C08241B283497AA00919BB8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -31,14 +31,18 @@ final class GameView: BaseView {
     let randomNumberLabel = UILabel().then {
         $0.textColor = .black
         $0.text = "11"
-        $0.font = .boldSystemFont(ofSize: 80)
+        $0.font = .boldSystemFont(ofSize: 60)
         $0.textAlignment = .center
     }
     let startAndStopButton = CustomButton().then {
-        $0.buttonState = .stop
+        $0.buttonState = .start
     }
-    let endButton = CustomButton().then {
-        $0.buttonState = .end
+    let endButton = UIButton().then {
+        $0.setTitle("그만하기", for: .normal)
+        $0.backgroundColor = .white
+        $0.layer.cornerRadius = 5
+        $0.layer.borderColor = UIColor.white.cgColor
+        $0.setTitleColor(.black, for: .normal)
     }
     
     override init(frame: CGRect) {

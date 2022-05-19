@@ -20,10 +20,7 @@ class BaseView: UIView, ViewRepresentable {
     }
     
     func setUpView() {
-        
+        backgroundColor = .white
     }
-    
-    func setUpConstraints() {
-        
-    }
+    func setUpConstraints() {}
 }

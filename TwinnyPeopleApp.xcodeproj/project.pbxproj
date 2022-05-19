@@ -11,7 +11,6 @@
 		5C08241B283497AA00919BB8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08241A283497AA00919BB8 /* SceneDelegate.swift */; };
 		5C08241D283497AA00919BB8 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08241C283497AA00919BB8 /* SummaryViewController.swift */; };
 		5C082422283497AB00919BB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C082421283497AB00919BB8 /* Assets.xcassets */; };
-		5C082425283497AB00919BB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C082423283497AB00919BB8 /* LaunchScreen.storyboard */; };
 		5C082430283497AB00919BB8 /* TwinnyPeopleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08242F283497AB00919BB8 /* TwinnyPeopleAppTests.swift */; };
 		5C08243A283497AB00919BB8 /* TwinnyPeopleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C082439283497AB00919BB8 /* TwinnyPeopleAppUITests.swift */; };
 		5C08243C283497AB00919BB8 /* TwinnyPeopleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08243B283497AB00919BB8 /* TwinnyPeopleAppUITestsLaunchTests.swift */; };
@@ -23,6 +22,13 @@
 		5C08246128349D2000919BB8 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08246028349D2000919BB8 /* BaseView.swift */; };
 		5C08246328349D2500919BB8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08246228349D2500919BB8 /* BaseViewController.swift */; };
 		5C08246628349D5500919BB8 /* ViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08246528349D5500919BB8 /* ViewRepresentable.swift */; };
+		5C0824682834AFDF00919BB8 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0824672834AFDF00919BB8 /* GameView.swift */; };
+		5C08246A2834B65100919BB8 /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0824692834B65100919BB8 /* HomeTabBarController.swift */; };
+		5C08246E2834C10900919BB8 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08246D2834C10900919BB8 /* CustomButton.swift */; };
+		5CD4D3272835D82E00FF360A /* GameViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD4D3262835D82E00FF360A /* GameViewReactor.swift */; };
+		5CD4D3292835EE6900FF360A /* SummaryViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD4D3282835EE6900FF360A /* SummaryViewReactor.swift */; };
+		5CD4D32C2835F25700FF360A /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 5CD4D32B2835F25700FF360A /* RxCocoa */; };
+		5CD4D32E28361C8400FF360A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CD4D32D28361C8400FF360A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +54,6 @@
 		5C08241A283497AA00919BB8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5C08241C283497AA00919BB8 /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
 		5C082421283497AB00919BB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5C082424283497AB00919BB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C082426283497AB00919BB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C08242B283497AB00919BB8 /* TwinnyPeopleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwinnyPeopleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C08242F283497AB00919BB8 /* TwinnyPeopleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwinnyPeopleAppTests.swift; sourceTree = "<group>"; };
@@ -60,6 +65,12 @@
 		5C08246028349D2000919BB8 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		5C08246228349D2500919BB8 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		5C08246528349D5500919BB8 /* ViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRepresentable.swift; sourceTree = "<group>"; };
+		5C0824672834AFDF00919BB8 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		5C0824692834B65100919BB8 /* HomeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
+		5C08246D2834C10900919BB8 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		5CD4D3262835D82E00FF360A /* GameViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewReactor.swift; sourceTree = "<group>"; };
+		5CD4D3282835EE6900FF360A /* SummaryViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewReactor.swift; sourceTree = "<group>"; };
+		5CD4D32D28361C8400FF360A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +80,7 @@
 			files = (
 				5C082450283498E500919BB8 /* SnapKit in Frameworks */,
 				5C08244A283498C500919BB8 /* ReactorKit in Frameworks */,
+				5CD4D32C2835F25700FF360A /* RxCocoa in Frameworks */,
 				5C08244D283498D000919BB8 /* Then in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -113,11 +125,11 @@
 		5C082417283497AA00919BB8 /* TwinnyPeopleApp */ = {
 			isa = PBXGroup;
 			children = (
-				5C08245928349A0500919BB8 /* Resources */,
 				5C0824542834998E00919BB8 /* Model */,
 				5C0824532834997E00919BB8 /* Presentation */,
 				5C0824522834996B00919BB8 /* Util */,
 				5C0824512834995400919BB8 /* App */,
+				5C08245928349A0500919BB8 /* Resources */,
 				5C082426283497AB00919BB8 /* Info.plist */,
 			);
 			path = TwinnyPeopleApp;
@@ -162,8 +174,9 @@
 		5C0824532834997E00919BB8 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				5C082458283499BE00919BB8 /* Summary */,
+				5C0824692834B65100919BB8 /* HomeTabBarController.swift */,
 				5C082457283499AD00919BB8 /* Game */,
+				5C082458283499BE00919BB8 /* Summary */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -187,6 +200,7 @@
 		5C082456283499A800919BB8 /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				5C08246D2834C10900919BB8 /* CustomButton.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -195,6 +209,8 @@
 			isa = PBXGroup;
 			children = (
 				5C08245A28349B7800919BB8 /* GameViewController.swift */,
+				5C0824672834AFDF00919BB8 /* GameView.swift */,
+				5CD4D3262835D82E00FF360A /* GameViewReactor.swift */,
 			);
 			path = Game;
 			sourceTree = "<group>";
@@ -204,6 +220,7 @@
 			children = (
 				5C08241C283497AA00919BB8 /* SummaryViewController.swift */,
 				5C08245C28349CD400919BB8 /* SummaryView.swift */,
+				5CD4D3282835EE6900FF360A /* SummaryViewReactor.swift */,
 			);
 			path = Summary;
 			sourceTree = "<group>";
@@ -212,7 +229,7 @@
 			isa = PBXGroup;
 			children = (
 				5C082421283497AB00919BB8 /* Assets.xcassets */,
-				5C082423283497AB00919BB8 /* LaunchScreen.storyboard */,
+				5CD4D32D28361C8400FF360A /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -245,6 +262,7 @@
 				5C082449283498C500919BB8 /* ReactorKit */,
 				5C08244C283498D000919BB8 /* Then */,
 				5C08244F283498E500919BB8 /* SnapKit */,
+				5CD4D32B2835F25700FF360A /* RxCocoa */,
 			);
 			productName = TwinnyPeopleApp;
 			productReference = 5C082415283497AA00919BB8 /* TwinnyPeopleApp.app */;
@@ -322,6 +340,7 @@
 				5C082448283498C500919BB8 /* XCRemoteSwiftPackageReference "ReactorKit" */,
 				5C08244B283498D000919BB8 /* XCRemoteSwiftPackageReference "Then" */,
 				5C08244E283498E500919BB8 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				5CD4D32A2835F25700FF360A /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = 5C082416283497AA00919BB8 /* Products */;
 			projectDirPath = "";
@@ -339,7 +358,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C082425283497AB00919BB8 /* LaunchScreen.storyboard in Resources */,
+				5CD4D32E28361C8400FF360A /* LaunchScreen.storyboard in Resources */,
 				5C082422283497AB00919BB8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,10 +386,15 @@
 			files = (
 				5C08245B28349B7800919BB8 /* GameViewController.swift in Sources */,
 				5C08246628349D5500919BB8 /* ViewRepresentable.swift in Sources */,
+				5CD4D3292835EE6900FF360A /* SummaryViewReactor.swift in Sources */,
 				5C08241D283497AA00919BB8 /* SummaryViewController.swift in Sources */,
 				5C08245D28349CD400919BB8 /* SummaryView.swift in Sources */,
+				5C08246A2834B65100919BB8 /* HomeTabBarController.swift in Sources */,
+				5C08246E2834C10900919BB8 /* CustomButton.swift in Sources */,
+				5C0824682834AFDF00919BB8 /* GameView.swift in Sources */,
 				5C08246128349D2000919BB8 /* BaseView.swift in Sources */,
 				5C082419283497AA00919BB8 /* AppDelegate.swift in Sources */,
+				5CD4D3272835D82E00FF360A /* GameViewReactor.swift in Sources */,
 				5C08246328349D2500919BB8 /* BaseViewController.swift in Sources */,
 				5C08241B283497AA00919BB8 /* SceneDelegate.swift in Sources */,
 			);
@@ -407,17 +431,6 @@
 			targetProxy = 5C082436283497AB00919BB8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		5C082423283497AB00919BB8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5C082424283497AB00919BB8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5C08243D283497AB00919BB8 /* Debug */ = {
@@ -734,6 +747,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		5CD4D32A2835F25700FF360A /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -751,6 +772,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 5C08244E283498E500919BB8 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		5CD4D32B2835F25700FF360A /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CD4D32A2835F25700FF360A /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

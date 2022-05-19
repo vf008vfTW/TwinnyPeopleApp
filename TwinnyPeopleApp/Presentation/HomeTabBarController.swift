@@ -15,6 +15,8 @@ final class HomeTabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        gameView.reactor = GameViewReactor()
+        
         self.viewControllers = [
             tabBarConfig(rootViewController: gameView, tabBarImage: UIImage(systemName: "gamecontroller.fill")!),
             tabBarConfig(rootViewController: summaryView, tabBarImage: UIImage(systemName: "note.text")!)
